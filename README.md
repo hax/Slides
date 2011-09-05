@@ -51,4 +51,4 @@ CSS features this framework used:
 * css3 animation (WebKit extension, so u may not see animation in non-WebKit browsers)
 
 	
-Note: In general, all compatibility patches will be factor out and move to another project https://github.com/hax/homemade-html5 in the future
+Note: In general, all compatibility patches will be factor out and move to another project https://github.com/hax/homemade-html5 in the future.
