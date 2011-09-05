@@ -30,12 +30,25 @@ Just a simple slides framework built on HTML5 technologies
 This is a very new framework which only be tested under recent Chrome/Firefox, 
 but it should work on any HTML5 browser.
 
+
 HTML5 API this framework used:
 
-	* document.querySelectorAll
-	* Element.classList (compatibility patch in plan)
-	* popstate event (I plan to add compatibility patch for old browsers which not support popstate event in near future)
-	* window.fullScreen / fullscreenchange event (Mozilla-only API but a compatibility patch included)
-	* document.enableStyleSheetsForSet (CSSOM API, compatibility patch included though the implementation is not correct as spec)
+* document.querySelectorAll
+
+* Element.classList (compatibility patch in plan)
+
+* popstate event (I plan to add compatibility patch for old browsers which not support popstate event in near future)
+
+* window.fullScreen / fullscreenchange event (Mozilla-only API but a compatibility patch included)
+
+* document.enableStyleSheetsForSet (CSSOM API, compatibility patch included though the implementation is not correct as spec)
+
+
+CSS features this framework used:
+
+* media query (min-width)
+
+* css3 animation (WebKit extension, so u may not see animation in non-WebKit browsers)
+
 	
 Note: In general, all compatibility patches will be factor out and move to another project https://github.com/hax/homemade-html5 in the future
